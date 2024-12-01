@@ -48,7 +48,7 @@ For us, we specifically need to write the following documents:
 ## For implementing the main storyline logic and flow, we primarily use the following statements:
 
 **label statement**: Label statements allow the given name to be assigned to a program point. They exist solely to be called or jumped to, either from Ren'Py script, Python functions, or from screens.  
-**jump statement**: The jump statement is used to transfer control to the given label. Unlike call, jump does not push the next statement onto a stack. As a result, there's no way to return to where you've jumped from. 
+**jump statement**: The jump statement is used to transfer control to the given label. Unlike call, jump does not push the next statement onto a stack. As a result, there's no way to return to where you've jumped from.  
 **return statement**: The return statement pops the top statement off of the call stack, and transfers control to it. If the call stack is empty, the return statement restarts Ren'Py, returning control to the main menu.  
  
 ## For implementing character dialogue and branching choices, we use the following statements and functions:
