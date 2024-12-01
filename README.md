@@ -1,3 +1,14 @@
+# How to Run the Project
+
+1. **Download the Zip File**:
+   - You can find the `Hogwarts_nights-1.0-win.zip` file in the `main` branch of this repository.
+
+2. **Extract the Files**:
+   - Extract the downloaded `Hogwarts_nights-1.0-win.zip` file to a directory of your choice.
+
+3. **Run the Program**:
+   - Open the extracted `Hogwarts_nights-1.0-win` folder.
+   - Double-click the `Hogwarts_nights.exe` file to run the program.
 # Game Introduction
 ## ideas
 ## Main storyline
@@ -6,9 +17,9 @@ A single playthrough lasts about 10mins or so, and the player needs to find four
 # Functionality we implement and statements we use**
 ## Why ren’py?
 After consulting various engine documentation and developer forums, we have chosen to learn the Ren'Py platform for developing text-based adventure games for the following reasons:
-Python-based Language: Ren'Py's scripting language is based on Python, which is very user-friendly for us since we have already learned Python.
-Mature Narrative Framework: Ren'Py provides a dialogue system and branching story management, which significantly reduces the workload in developing narrative games. In contrast, using other frameworks like Pygame would require us to build these systems from scratch.
-Free and Open Source: Ren'Py has an active community and a wealth of tutorial resources, which provide valuable support for our development.
+1. **Python-based Language**: Ren'Py's scripting language is based on Python, which is very user-friendly for us since we have already learned Python.
+2. **Mature Narrative Framework**: Ren'Py provides a dialogue system and branching story management, which significantly reduces the workload in developing narrative games. In contrast, using other frameworks like Pygame would require us to build these systems from scratch.
+3. **Free and Open Source**: Ren'Py has an active community and a wealth of tutorial resources, which provide valuable support for our development.
 
 ##  Text Adventure Game Development
 Understanding the Ren'Py Framework
