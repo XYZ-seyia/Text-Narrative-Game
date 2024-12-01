@@ -10,7 +10,7 @@
    - Open the extracted `Hogwarts_nights-1.0-win` folder.
    - Double-click the `Hogwarts_nights.exe` file to run the program.
 4. **View the Source Code**:
-   - The source code is located in the `game` folder inside the extracted `Hogwarts_nights-1.0-win` folder, specifically in the `script.rpy` file.
+   - The main source code is located in the `game` folder inside the extracted `Hogwarts_nights-1.0-win` folder, specifically in the `script.rpy` and `screens.rpy` file.
    - To view and edit the source code, you need to install the `Ren'Py Language` extension in Visual Studio Code (VS Code).
 # Game Introduction
 ## ideas
