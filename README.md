@@ -1,7 +1,7 @@
 # How to Run the Project
 
 1. **Download the Zip File**:
-   - You can find the `Hogwarts_nights-1.0-win.zip` file in the `main` branch of this repository.
+   - You can find and download the `Hogwarts_nights-1.0-win.zip` file in the `main` branch of this repository.
 
 2. **Extract the Files**:
    - Extract the downloaded `Hogwarts_nights-1.0-win.zip` file to a directory of your choice.
