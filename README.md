@@ -1,6 +1,8 @@
-# Hogwarts nights
-## Game Introduction
-
+# Game Introduction
+## ideas
+## Main storyline
+## Plot and Choices
+A single playthrough lasts about 10mins or so, and the player needs to find four treasures left behind by the founders , and there are five endings in total, depending on the player's choices and performance in the game.
 # Functionality we implement and statements we use**
 ## Why ren’py?
 After consulting various engine documentation and developer forums, we have chosen to learn the Ren'Py platform for developing text-based adventure games for the following reasons:
