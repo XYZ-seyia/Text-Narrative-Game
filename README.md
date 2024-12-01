@@ -14,9 +14,14 @@
    - To view and edit the source code, you need to install the `Ren'Py Language` extension in Visual Studio Code (VS Code).
 # Game Introduction
 ## ideas
+This is a Wizarding World adventure for Harry Potter fans!
+Players are transported to the Wizarding World and are about to start a journey filled with tests of courage and ingenuity, and to realise the true spirit of the four Hogwarts colleges!
 ## Main storyline
+Hogwarts Castle has awakened its own consciousness and taken control of everyone, leaving only Headmaster Dumbledore struggling to hold on. As a warrior from another world, are you willing to help the Headmaster collect the treasures left behind by the four founders to seal the castle's consciousness and save Hogwarts?
 ## Plot and Choices
-A single playthrough lasts about 10mins or so, and the player needs to find four treasures left behind by the founders , and there are five endings in total, depending on the player's choices and performance in the game.
+A single playthrough lasts about 10mins, and the player needs to find four treasures left behind by the founders , and there are five endings in total, depending on the player's choices and performance in the game.
+Click this link!(https://github.com/XYZ-seyia/Text-Narrative-Game/blob/main/choices%20and%20endings.jpg) to view the structure of choice and endings!
+I hope you could reach the Perfect Ending!
 # Functionality we implement and statements we use**
 ## Why ren’py?
 After consulting various engine documentation and developer forums, we have chosen to learn the Ren'Py platform for developing text-based adventure games for the following reasons:
