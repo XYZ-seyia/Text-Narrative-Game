@@ -9,6 +9,9 @@
 3. **Run the Program**:
    - Open the extracted `Hogwarts_nights-1.0-win` folder.
    - Double-click the `Hogwarts_nights.exe` file to run the program.
+4. **View the Source Code**:
+   - The source code is located in the `game` folder inside the extracted `Hogwarts_nights-1.0-win` folder, specifically in the `script.rpy` file.
+   - To view and edit the source code, you need to install the `Ren'Py Language` extension in Visual Studio Code (VS Code).
 # Game Introduction
 ## ideas
 ## Main storyline
@@ -17,17 +20,25 @@ A single playthrough lasts about 10mins or so, and the player needs to find four
 # Functionality we implement and statements we use**
 ## Why ren’py?
 After consulting various engine documentation and developer forums, we have chosen to learn the Ren'Py platform for developing text-based adventure games for the following reasons:
-1. **Python-based Language**: Ren'Py's scripting language is based on Python, which is very user-friendly for us since we have already learned Python.
-2. **Mature Narrative Framework**: Ren'Py provides a dialogue system and branching story management, which significantly reduces the workload in developing narrative games. In contrast, using other frameworks like Pygame would require us to build these systems from scratch.
-3. **Free and Open Source**: Ren'Py has an active community and a wealth of tutorial resources, which provide valuable support for our development.
+1. **Python-based Language**:
+   - Ren'Py's scripting language is based on Python, which is very user-friendly for us since we have already learned Python.
+3. **Mature Narrative Framework**:
+   - Ren'Py provides a dialogue system and branching story management, which significantly reduces the workload in developing narrative games. In contrast, using other frameworks like Pygame would require us to build these systems from scratch.
+5. **Free and Open Source**:
+   - Ren'Py has an active community and a wealth of tutorial resources, which provide valuable support for our development.
 
-##  Text Adventure Game Development
+##  Text Adventure Game Framework
 Understanding the Ren'Py Framework
-Ren'Py game scripts consist of numerous files with the extension .rpy located in the game/ directory. Ren'Py checks each file in Unicode code point order and uses their contents as the script.
-For us, we specifically need to write the following documents:
-script.rpy file: This is the core script file of the game, containing the main logic, storyline, character dialogues, and game flow control. By carefully designing and writing the script.rpy file, developers can create an engaging story and memorable gaming experience.
-screens.rpy file: This is the core file for defining the UI in a Ren'Py project, allowing developers full control over the game's interface appearance and behavior. We will also use it to implement some immersive exploration interaction features in 2D scenes.
-options.rpy file: This is used to define the game's settings menu, allowing players to customize certain game options, such as volume control, display mode, text speed, etc.
+Ren'Py game scripts consist of numerous files with the extension .rpy located in the game/ directory. Ren'Py checks each file in Unicode code point order and uses their contents as the script.  
+For us, we specifically need to write the following documents:  
+1.**script.rpy file**:
+ - This is the core script file of the game, containing the main logic, storyline, character dialogues, and game flow control. By carefully designing and writing the script.rpy file, developers can create an engaging story and memorable gaming experience.
+
+2.**screens.rpy file**:
+ - This is the core file for defining the UI in a Ren'Py project, allowing developers full control over the game's interface appearance and behavior. We will also use it to implement some immersive exploration interaction features in 2D scenes.
+
+3.**options.rpy file**:
+  - This is used to define the game's settings menu, allowing players to customize certain game options, such as volume control, display mode, text speed, etc.  
 
 ## For implementing the main storyline logic and flow, we primarily use the following statements:
 label statement: Label statements allow the given name to be assigned to a program point. They exist solely to be called or jumped to, either from Ren'Py script, Python functions, or from screens.
